@@ -1,0 +1,14 @@
+      <script>
+	
+    
+            $(document).ready(function() {
+
+                $("#refresh").click(function(){
+
+                    setInterval(function() {
+                                $("body").load('index.php')
+                            },5000);
+                });
+
+            });
+        </script>
